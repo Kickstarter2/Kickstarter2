@@ -65,7 +65,7 @@ def create_app():
 
         #file = open("model.pkl", "wb")
         model = pickle.load(
-            open('./kick_model1', 'rb'))
+            open('kickstarter/kick_model1', 'rb'))
         # model = pickle.load(
         #     open('Kickstarter2/kickstarter/kick_model(1)', 'rb'))
 
